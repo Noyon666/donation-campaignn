@@ -5,6 +5,7 @@ const MyMainLayout = () => {
   return (
     <div className="container mx-auto">
       <NavBar></NavBar>
+
       <Outlet></Outlet>
     </div>
   );
